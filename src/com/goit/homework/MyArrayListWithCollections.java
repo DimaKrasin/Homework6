@@ -1,19 +1,21 @@
 package com.goit.homework;
 
-public class MyArrayList<T> {
+import java.util.Collection;
+
+public class MyArrayListWithCollections<T> {
 
     public static int size;
     final static int ONE = 1;
     T[] Arr;
 
-    MyArrayList(T o) {
+    MyArrayListWithCollections(T o) {
         size = 1;
         Arr = (T[]) new Object[size];
         Arr[0] = o;
         size =size+ONE;
     }
 
-    MyArrayList() {
+    MyArrayListWithCollections() {
         size = 0;
         Arr = (T[]) new Object[size];
         size =size+ ONE;
