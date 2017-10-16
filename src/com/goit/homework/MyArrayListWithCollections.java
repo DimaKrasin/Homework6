@@ -1,6 +1,6 @@
 package com.goit.homework;
 
-import java.util.Collection;
+import org.jetbrains.annotations.NotNull;
 
 public class MyArrayListWithCollections<T> {
 
@@ -66,6 +66,4 @@ public class MyArrayListWithCollections<T> {
     public Object get(int index){
         return Arr[index];
     }
-
-
 }
